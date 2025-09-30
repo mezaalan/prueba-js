@@ -1,0 +1,117 @@
+{
+  "proveedores": [
+    {
+      "id": "prov-001",
+      "nombre": "TecnoMax",
+      "productos": {
+        "celulares": [
+          {
+            "id": 1,
+            "nombre": "Smartphone Nova X",
+            "precio": 120000,
+            "stock": 15
+          },
+          {
+            "id": 7,
+            "nombre": "Smartphone Orion Lite",
+            "precio": 75000,
+            "stock": 20
+          }
+        ],
+        "vidrios": [],
+        "fundas": []
+      }
+    },
+    {
+      "id": "prov-002",
+      "nombre": "ElectroSur",
+      "productos": {
+        "celulares": [
+          {
+            "id": 2,
+            "nombre": "Smartphone Zeta Pro",
+            "precio": 98000,
+            "stock": 8
+          }
+        ],
+        "vidrios": [],
+        "fundas": []
+      }
+    },
+    {
+      "id": "prov-003",
+      "nombre": "GlassTech",
+      "productos": {
+        "celulares": [],
+        "vidrios": [
+          {
+            "id": 3,
+            "nombre": "Vidrio templado Nova X",
+            "precio": 2500,
+            "stock": 50,
+            "compatibleCon": ["Smartphone Nova X"]
+          }
+        ],
+        "fundas": []
+      }
+    },
+    {
+      "id": "prov-004",
+      "nombre": "ProtecGlass",
+      "productos": {
+        "celulares": [],
+        "vidrios": [
+          {
+            "id": 4,
+            "nombre": "Vidrio templado Zeta Pro",
+            "precio": 2300,
+            "stock": 40,
+            "compatibleCon": ["Smartphone Zeta Pro"]
+          }
+        ],
+        "fundas": []
+      }
+    },
+    {
+      "id": "prov-005",
+      "nombre": "CaseWorld",
+      "productos": {
+        "celulares": [],
+        "vidrios": [],
+        "fundas": [
+          {
+            "id": 5,
+            "nombre": "Funda silicona Nova X",
+            "precio": 3200,
+            "stock": 30,
+            "compatibleCon": ["Smartphone Nova X"]
+          },
+          {
+            "id": 8,
+            "nombre": "Funda universal 6.5\"",
+            "precio": 2800,
+            "stock": 60,
+            "compatibleCon": ["Smartphone Nova X", "Smartphone Zeta Pro", "Smartphone Orion Lite"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "prov-006",
+      "nombre": "FundasYA",
+      "productos": {
+        "celulares": [],
+        "vidrios": [],
+        "fundas": [
+          {
+            "id": 6,
+            "nombre": "Funda rígida Zeta Pro",
+            "precio": 3500,
+            "stock": 25,
+            "compatibleCon": ["Smartphone Zeta Pro"]
+          }
+        ]
+      }
+    }
+  ]
+}

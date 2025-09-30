@@ -1,0 +1,1439 @@
+{
+  "exchangeData": [
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 7618181,
+          "oi": "-",
+          "totalVolume": 7618181,
+          "id": "CBOT"
+        },
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 12760027,
+          "oi": "-",
+          "totalVolume": 12760027,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 378823,
+          "floorVol": 0,
+          "globexVol": 4483800,
+          "oi": "-",
+          "totalVolume": 4862623,
+          "id": "NYMEX"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1750136400000,
+        "dateOnlyLongFormat": "17 Jun 2025",
+        "default24": "06/17/2025, 00:00:00 CDT",
+        "default12": "06/17/2025, 12:00:00 AM CDT",
+        "verbose": "June 17, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1057253,
+        "floorVol": 971679,
+        "globexVol": 24255010,
+        "oi": "-",
+        "totalVolume": 26283942
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 248405,
+          "floorVol": 0,
+          "globexVol": 4277975,
+          "oi": 17231158,
+          "totalVolume": 4526380,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 6865,
+          "floorVol": 0,
+          "globexVol": 715997,
+          "oi": 2249417,
+          "totalVolume": 722862,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 630184,
+          "floorVol": 516014,
+          "globexVol": 13077508,
+          "oi": 62506614,
+          "totalVolume": 14223706,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 364057,
+          "floorVol": 0,
+          "globexVol": 7222338,
+          "oi": 39101827,
+          "totalVolume": 7586395,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1750050000000,
+        "dateOnlyLongFormat": "16 Jun 2025",
+        "default24": "06/16/2025, 00:00:00 CDT",
+        "default12": "06/16/2025, 12:00:00 AM CDT",
+        "verbose": "June 16, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1249511,
+        "floorVol": 516014,
+        "globexVol": 25293818,
+        "oi": 121089016,
+        "totalVolume": 27059343
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 341023,
+          "floorVol": 0,
+          "globexVol": 7039992,
+          "oi": 17769681,
+          "totalVolume": 7381015,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 11645,
+          "floorVol": 0,
+          "globexVol": 941395,
+          "oi": 2237765,
+          "totalVolume": 953040,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 551457,
+          "floorVol": 707963,
+          "globexVol": 16270679,
+          "oi": 61872275,
+          "totalVolume": 17530099,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 439003,
+          "floorVol": 0,
+          "globexVol": 9959671,
+          "oi": 38998854,
+          "totalVolume": 10398674,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749790800000,
+        "dateOnlyLongFormat": "13 Jun 2025",
+        "default24": "06/13/2025, 00:00:00 CDT",
+        "default12": "06/13/2025, 12:00:00 AM CDT",
+        "verbose": "June 13, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1343128,
+        "floorVol": 707963,
+        "globexVol": 34211737,
+        "oi": 120878575,
+        "totalVolume": 36262828
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 333715,
+          "floorVol": 0,
+          "globexVol": 3369325,
+          "oi": 17712481,
+          "totalVolume": 3703040,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 14210,
+          "floorVol": 0,
+          "globexVol": 880708,
+          "oi": 2232857,
+          "totalVolume": 894918,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 488166,
+          "floorVol": 1120579,
+          "globexVol": 13017287,
+          "oi": 71740902,
+          "totalVolume": 14626032,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 552255,
+          "floorVol": 0,
+          "globexVol": 9278263,
+          "oi": 39101786,
+          "totalVolume": 9830518,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749704400000,
+        "dateOnlyLongFormat": "12 Jun 2025",
+        "default24": "06/12/2025, 00:00:00 CDT",
+        "default12": "06/12/2025, 12:00:00 AM CDT",
+        "verbose": "June 12, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1388346,
+        "floorVol": 1120579,
+        "globexVol": 26545583,
+        "oi": 130788026,
+        "totalVolume": 29054508
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 298232,
+          "floorVol": 0,
+          "globexVol": 3302033,
+          "oi": 17553367,
+          "totalVolume": 3600265,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 11565,
+          "floorVol": 0,
+          "globexVol": 793527,
+          "oi": 2201814,
+          "totalVolume": 805092,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 313846,
+          "floorVol": 1202821,
+          "globexVol": 14211478,
+          "oi": 71069143,
+          "totalVolume": 15728145,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 314419,
+          "floorVol": 0,
+          "globexVol": 9040687,
+          "oi": 38391909,
+          "totalVolume": 9355106,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749618000000,
+        "dateOnlyLongFormat": "11 Jun 2025",
+        "default24": "06/11/2025, 00:00:00 CDT",
+        "default12": "06/11/2025, 12:00:00 AM CDT",
+        "verbose": "June 11, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 938062,
+        "floorVol": 1202821,
+        "globexVol": 27347725,
+        "oi": 129216233,
+        "totalVolume": 29488608
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 208546,
+          "floorVol": 0,
+          "globexVol": 2580871,
+          "oi": 17411717,
+          "totalVolume": 2789417,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 10863,
+          "floorVol": 0,
+          "globexVol": 668954,
+          "oi": 2189522,
+          "totalVolume": 679817,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 519851,
+          "floorVol": 502630,
+          "globexVol": 10327987,
+          "oi": 70375332,
+          "totalVolume": 11350468,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 358656,
+          "floorVol": 0,
+          "globexVol": 5814555,
+          "oi": 38048195,
+          "totalVolume": 6173211,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749531600000,
+        "dateOnlyLongFormat": "10 Jun 2025",
+        "default24": "06/10/2025, 00:00:00 CDT",
+        "default12": "06/10/2025, 12:00:00 AM CDT",
+        "verbose": "June 10, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1097916,
+        "floorVol": 502630,
+        "globexVol": 19392367,
+        "oi": 128024766,
+        "totalVolume": 20992913
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 178077,
+          "floorVol": 0,
+          "globexVol": 2144234,
+          "oi": 17307924,
+          "totalVolume": 2322311,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 8941,
+          "floorVol": 0,
+          "globexVol": 631838,
+          "oi": 2180424,
+          "totalVolume": 640779,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 573411,
+          "floorVol": 886211,
+          "globexVol": 8202835,
+          "oi": 69688238,
+          "totalVolume": 9662457,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 281229,
+          "floorVol": 0,
+          "globexVol": 6099352,
+          "oi": 37835081,
+          "totalVolume": 6380581,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749445200000,
+        "dateOnlyLongFormat": "09 Jun 2025",
+        "default24": "06/09/2025, 00:00:00 CDT",
+        "default12": "06/09/2025, 12:00:00 AM CDT",
+        "verbose": "June 09, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1041658,
+        "floorVol": 886211,
+        "globexVol": 17078259,
+        "oi": 127011667,
+        "totalVolume": 19006128
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 275683,
+          "floorVol": 0,
+          "globexVol": 2378837,
+          "oi": 17236281,
+          "totalVolume": 2654520,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 13439,
+          "floorVol": 0,
+          "globexVol": 777207,
+          "oi": 2170495,
+          "totalVolume": 790646,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 366403,
+          "floorVol": 1908404,
+          "globexVol": 12814004,
+          "oi": 69058119,
+          "totalVolume": 15088811,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 385698,
+          "floorVol": 0,
+          "globexVol": 9839740,
+          "oi": 37818369,
+          "totalVolume": 10225438,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749186000000,
+        "dateOnlyLongFormat": "06 Jun 2025",
+        "default24": "06/06/2025, 00:00:00 CDT",
+        "default12": "06/06/2025, 12:00:00 AM CDT",
+        "verbose": "June 06, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1041223,
+        "floorVol": 1908404,
+        "globexVol": 25809788,
+        "oi": 126283264,
+        "totalVolume": 28759415
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 221661,
+          "floorVol": 0,
+          "globexVol": 2122461,
+          "oi": 17118205,
+          "totalVolume": 2344122,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 25713,
+          "floorVol": 0,
+          "globexVol": 941871,
+          "oi": 2169808,
+          "totalVolume": 967584,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 237576,
+          "floorVol": 621542,
+          "globexVol": 12971372,
+          "oi": 68997447,
+          "totalVolume": 13830490,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 339164,
+          "floorVol": 0,
+          "globexVol": 8807903,
+          "oi": 38088245,
+          "totalVolume": 9147067,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749099600000,
+        "dateOnlyLongFormat": "05 Jun 2025",
+        "default24": "06/05/2025, 00:00:00 CDT",
+        "default12": "06/05/2025, 12:00:00 AM CDT",
+        "verbose": "June 05, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 824114,
+        "floorVol": 621542,
+        "globexVol": 24843607,
+        "oi": 126373705,
+        "totalVolume": 26289263
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 251243,
+          "floorVol": 0,
+          "globexVol": 2330624,
+          "oi": 16995676,
+          "totalVolume": 2581867,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 12715,
+          "floorVol": 0,
+          "globexVol": 624771,
+          "oi": 2141236,
+          "totalVolume": 637486,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 262759,
+          "floorVol": 1131480,
+          "globexVol": 9597907,
+          "oi": 68643387,
+          "totalVolume": 10992146,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 472809,
+          "floorVol": 0,
+          "globexVol": 8529050,
+          "oi": 37619676,
+          "totalVolume": 9001859,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1749013200000,
+        "dateOnlyLongFormat": "04 Jun 2025",
+        "default24": "06/04/2025, 00:00:00 CDT",
+        "default12": "06/04/2025, 12:00:00 AM CDT",
+        "verbose": "June 04, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 999526,
+        "floorVol": 1131480,
+        "globexVol": 21082352,
+        "oi": 125399975,
+        "totalVolume": 23213358
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 266053,
+          "floorVol": 0,
+          "globexVol": 2150319,
+          "oi": 16987475,
+          "totalVolume": 2416372,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 17587,
+          "floorVol": 0,
+          "globexVol": 682195,
+          "oi": 2125731,
+          "totalVolume": 699782,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 234454,
+          "floorVol": 943825,
+          "globexVol": 9125882,
+          "oi": 68163066,
+          "totalVolume": 10304161,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 328603,
+          "floorVol": 0,
+          "globexVol": 6393601,
+          "oi": 37341600,
+          "totalVolume": 6722204,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748926800000,
+        "dateOnlyLongFormat": "03 Jun 2025",
+        "default24": "06/03/2025, 00:00:00 CDT",
+        "default12": "06/03/2025, 12:00:00 AM CDT",
+        "verbose": "June 03, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 846697,
+        "floorVol": 943825,
+        "globexVol": 18351997,
+        "oi": 124617872,
+        "totalVolume": 20142519
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 265336,
+          "floorVol": 0,
+          "globexVol": 2749176,
+          "oi": 16857790,
+          "totalVolume": 3014512,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 20034,
+          "floorVol": 0,
+          "globexVol": 799270,
+          "oi": 2117030,
+          "totalVolume": 819304,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 229903,
+          "floorVol": 790687,
+          "globexVol": 8804949,
+          "oi": 68247256,
+          "totalVolume": 9825539,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 233022,
+          "floorVol": 0,
+          "globexVol": 6640918,
+          "oi": 37888683,
+          "totalVolume": 6873940,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748840400000,
+        "dateOnlyLongFormat": "02 Jun 2025",
+        "default24": "06/02/2025, 00:00:00 CDT",
+        "default12": "06/02/2025, 12:00:00 AM CDT",
+        "verbose": "June 02, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 748295,
+        "floorVol": 790687,
+        "globexVol": 18994313,
+        "oi": 125110759,
+        "totalVolume": 20533295
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 2957,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 2957,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 318038,
+          "floorVol": 0,
+          "globexVol": 2665278,
+          "oi": 16839051,
+          "totalVolume": 2983316,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 7329,
+          "floorVol": 0,
+          "globexVol": 634942,
+          "oi": 2075988,
+          "totalVolume": 642271,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 228032,
+          "floorVol": 599415,
+          "globexVol": 11432338,
+          "oi": 67972971,
+          "totalVolume": 12259785,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 381712,
+          "floorVol": 0,
+          "globexVol": 9538936,
+          "oi": 37667563,
+          "totalVolume": 9920648,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748581200000,
+        "dateOnlyLongFormat": "30 May 2025",
+        "default24": "05/30/2025, 00:00:00 CDT",
+        "default12": "05/30/2025, 12:00:00 AM CDT",
+        "verbose": "May 30, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 938068,
+        "floorVol": 599415,
+        "globexVol": 24271494,
+        "oi": 124555573,
+        "totalVolume": 25808977
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 240892,
+          "floorVol": 0,
+          "globexVol": 2280253,
+          "oi": 16710980,
+          "totalVolume": 2521145,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 17830,
+          "floorVol": 0,
+          "globexVol": 777241,
+          "oi": 2103081,
+          "totalVolume": 795071,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 326147,
+          "floorVol": 1111186,
+          "globexVol": 12619046,
+          "oi": 68218784,
+          "totalVolume": 14056379,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 598997,
+          "floorVol": 0,
+          "globexVol": 10574625,
+          "oi": 38052862,
+          "totalVolume": 11173622,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748494800000,
+        "dateOnlyLongFormat": "29 May 2025",
+        "default24": "05/29/2025, 00:00:00 CDT",
+        "default12": "05/29/2025, 12:00:00 AM CDT",
+        "verbose": "May 29, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1183866,
+        "floorVol": 1111186,
+        "globexVol": 26251165,
+        "oi": 125085707,
+        "totalVolume": 28546217
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 323275,
+          "floorVol": 0,
+          "globexVol": 2159035,
+          "oi": 16736708,
+          "totalVolume": 2482310,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 31187,
+          "floorVol": 0,
+          "globexVol": 773081,
+          "oi": 2091240,
+          "totalVolume": 804268,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 274120,
+          "floorVol": 765039,
+          "globexVol": 9698228,
+          "oi": 67687832,
+          "totalVolume": 10737387,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 569515,
+          "floorVol": 0,
+          "globexVol": 14775598,
+          "oi": 37966452,
+          "totalVolume": 15345113,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748408400000,
+        "dateOnlyLongFormat": "28 May 2025",
+        "default24": "05/28/2025, 00:00:00 CDT",
+        "default12": "05/28/2025, 12:00:00 AM CDT",
+        "verbose": "May 28, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1198097,
+        "floorVol": 765039,
+        "globexVol": 27405942,
+        "oi": 124482232,
+        "totalVolume": 29369078
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 191722,
+          "floorVol": 0,
+          "globexVol": 2302596,
+          "oi": 16632719,
+          "totalVolume": 2494318,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 12031,
+          "floorVol": 0,
+          "globexVol": 1232553,
+          "oi": 2096823,
+          "totalVolume": 1244584,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 277887,
+          "floorVol": 621754,
+          "globexVol": 12299246,
+          "oi": 67525371,
+          "totalVolume": 13198887,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 897421,
+          "floorVol": 0,
+          "globexVol": 33721969,
+          "oi": 38563406,
+          "totalVolume": 34619390,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1748322000000,
+        "dateOnlyLongFormat": "27 May 2025",
+        "default24": "05/27/2025, 00:00:00 CDT",
+        "default12": "05/27/2025, 12:00:00 AM CDT",
+        "verbose": "May 27, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1379061,
+        "floorVol": 621754,
+        "globexVol": 49556364,
+        "oi": 124818319,
+        "totalVolume": 51557179
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 250877,
+          "floorVol": 0,
+          "globexVol": 2046396,
+          "oi": 17508595,
+          "totalVolume": 2297273,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 17534,
+          "floorVol": 0,
+          "globexVol": 975136,
+          "oi": 2581623,
+          "totalVolume": 992670,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 293599,
+          "floorVol": 532707,
+          "globexVol": 13665741,
+          "oi": 67192749,
+          "totalVolume": 14492047,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 454748,
+          "floorVol": 0,
+          "globexVol": 24236479,
+          "oi": 38629326,
+          "totalVolume": 24691227,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747976400000,
+        "dateOnlyLongFormat": "23 May 2025",
+        "default24": "05/23/2025, 00:00:00 CDT",
+        "default12": "05/23/2025, 12:00:00 AM CDT",
+        "verbose": "May 23, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1016758,
+        "floorVol": 532707,
+        "globexVol": 40923752,
+        "oi": 125912293,
+        "totalVolume": 42473217
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 224897,
+          "floorVol": 0,
+          "globexVol": 2000967,
+          "oi": 17444387,
+          "totalVolume": 2225864,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 12691,
+          "floorVol": 0,
+          "globexVol": 904407,
+          "oi": 2575522,
+          "totalVolume": 917098,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 202427,
+          "floorVol": 490170,
+          "globexVol": 12128460,
+          "oi": 67003057,
+          "totalVolume": 12821057,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 716422,
+          "floorVol": 0,
+          "globexVol": 26462494,
+          "oi": 42881696,
+          "totalVolume": 27178916,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747890000000,
+        "dateOnlyLongFormat": "22 May 2025",
+        "default24": "05/22/2025, 00:00:00 CDT",
+        "default12": "05/22/2025, 12:00:00 AM CDT",
+        "verbose": "May 22, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1156437,
+        "floorVol": 490170,
+        "globexVol": 41496328,
+        "oi": 129904662,
+        "totalVolume": 43142935
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 199675,
+          "floorVol": 0,
+          "globexVol": 2282069,
+          "oi": 17367813,
+          "totalVolume": 2481744,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 14123,
+          "floorVol": 0,
+          "globexVol": 867220,
+          "oi": 2568941,
+          "totalVolume": 881343,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 213852,
+          "floorVol": 777893,
+          "globexVol": 12630024,
+          "oi": 66656100,
+          "totalVolume": 13621769,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 626664,
+          "floorVol": 0,
+          "globexVol": 17134163,
+          "oi": 42553444,
+          "totalVolume": 17760827,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747803600000,
+        "dateOnlyLongFormat": "21 May 2025",
+        "default24": "05/21/2025, 00:00:00 CDT",
+        "default12": "05/21/2025, 12:00:00 AM CDT",
+        "verbose": "May 21, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1054314,
+        "floorVol": 777893,
+        "globexVol": 32913476,
+        "oi": 129146298,
+        "totalVolume": 34745683
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 276333,
+          "floorVol": 0,
+          "globexVol": 2384300,
+          "oi": 17266491,
+          "totalVolume": 2660633,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 18575,
+          "floorVol": 0,
+          "globexVol": 801737,
+          "oi": 2543987,
+          "totalVolume": 820312,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 171382,
+          "floorVol": 748014,
+          "globexVol": 8699052,
+          "oi": 66241329,
+          "totalVolume": 9618448,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 423591,
+          "floorVol": 0,
+          "globexVol": 9106203,
+          "oi": 41938314,
+          "totalVolume": 9529794,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747717200000,
+        "dateOnlyLongFormat": "20 May 2025",
+        "default24": "05/20/2025, 00:00:00 CDT",
+        "default12": "05/20/2025, 12:00:00 AM CDT",
+        "verbose": "May 20, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 889881,
+        "floorVol": 748014,
+        "globexVol": 20991292,
+        "oi": 127990121,
+        "totalVolume": 22629187
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 349766,
+          "floorVol": 0,
+          "globexVol": 2528243,
+          "oi": 17215723,
+          "totalVolume": 2878009,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 13072,
+          "floorVol": 0,
+          "globexVol": 764393,
+          "oi": 2511482,
+          "totalVolume": 777465,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 182376,
+          "floorVol": 374718,
+          "globexVol": 10237599,
+          "oi": 65882768,
+          "totalVolume": 10794693,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 480932,
+          "floorVol": 0,
+          "globexVol": 9238762,
+          "oi": 41485577,
+          "totalVolume": 9719694,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747630800000,
+        "dateOnlyLongFormat": "19 May 2025",
+        "default24": "05/19/2025, 00:00:00 CDT",
+        "default12": "05/19/2025, 12:00:00 AM CDT",
+        "verbose": "May 19, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1026146,
+        "floorVol": 374718,
+        "globexVol": 22768997,
+        "oi": 127095550,
+        "totalVolume": 24169861
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 233033,
+          "floorVol": 0,
+          "globexVol": 1982180,
+          "oi": 17089114,
+          "totalVolume": 2215213,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 21017,
+          "floorVol": 0,
+          "globexVol": 893599,
+          "oi": 2496627,
+          "totalVolume": 914616,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 389956,
+          "floorVol": 815666,
+          "globexVol": 10282742,
+          "oi": 65668580,
+          "totalVolume": 11488364,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 241854,
+          "floorVol": 0,
+          "globexVol": 7476278,
+          "oi": 41187554,
+          "totalVolume": 7718132,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747371600000,
+        "dateOnlyLongFormat": "16 May 2025",
+        "default24": "05/16/2025, 00:00:00 CDT",
+        "default12": "05/16/2025, 12:00:00 AM CDT",
+        "verbose": "May 16, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 885860,
+        "floorVol": 815666,
+        "globexVol": 20634799,
+        "oi": 126441875,
+        "totalVolume": 22336325
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 257151,
+          "floorVol": 0,
+          "globexVol": 2702803,
+          "oi": 16985764,
+          "totalVolume": 2959954,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 11220,
+          "floorVol": 0,
+          "globexVol": 940327,
+          "oi": 2498632,
+          "totalVolume": 951547,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 465709,
+          "floorVol": 683602,
+          "globexVol": 11017968,
+          "oi": 69032053,
+          "totalVolume": 12167279,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 571325,
+          "floorVol": 0,
+          "globexVol": 9529276,
+          "oi": 41521864,
+          "totalVolume": 10100601,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747285200000,
+        "dateOnlyLongFormat": "15 May 2025",
+        "default24": "05/15/2025, 00:00:00 CDT",
+        "default12": "05/15/2025, 12:00:00 AM CDT",
+        "verbose": "May 15, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1305405,
+        "floorVol": 683602,
+        "globexVol": 24190374,
+        "oi": 130038313,
+        "totalVolume": 26179381
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 261483,
+          "floorVol": 0,
+          "globexVol": 2257102,
+          "oi": 17816009,
+          "totalVolume": 2518585,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 13834,
+          "floorVol": 0,
+          "globexVol": 847269,
+          "oi": 2482584,
+          "totalVolume": 861103,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 457987,
+          "floorVol": 1235120,
+          "globexVol": 11144834,
+          "oi": 68745766,
+          "totalVolume": 12837941,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 522959,
+          "floorVol": 0,
+          "globexVol": 8163159,
+          "oi": 40821890,
+          "totalVolume": 8686118,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747198800000,
+        "dateOnlyLongFormat": "14 May 2025",
+        "default24": "05/14/2025, 00:00:00 CDT",
+        "default12": "05/14/2025, 12:00:00 AM CDT",
+        "verbose": "May 14, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1256263,
+        "floorVol": 1235120,
+        "globexVol": 22412364,
+        "oi": 129866249,
+        "totalVolume": 24903747
+      }
+    },
+    {
+      "exchangeVols": [
+        {
+          "clearingVol": 0,
+          "floorVol": 0,
+          "globexVol": 0,
+          "oi": "-",
+          "totalVolume": 0,
+          "id": "OTC"
+        },
+        {
+          "clearingVol": 280689,
+          "floorVol": 0,
+          "globexVol": 2328702,
+          "oi": 17720730,
+          "totalVolume": 2609391,
+          "id": "NYMEX"
+        },
+        {
+          "clearingVol": 17700,
+          "floorVol": 0,
+          "globexVol": 740181,
+          "oi": 2459250,
+          "totalVolume": 757881,
+          "id": "COMEX"
+        },
+        {
+          "clearingVol": 324196,
+          "floorVol": 1263441,
+          "globexVol": 11497182,
+          "oi": 68314736,
+          "totalVolume": 13084819,
+          "id": "CME"
+        },
+        {
+          "clearingVol": 453900,
+          "floorVol": 0,
+          "globexVol": 9088874,
+          "oi": 40392524,
+          "totalVolume": 9542774,
+          "id": "CBOT"
+        }
+      ],
+      "tradeDate": {
+        "timestamp": 1747112400000,
+        "dateOnlyLongFormat": "13 May 2025",
+        "default24": "05/13/2025, 00:00:00 CDT",
+        "default12": "05/13/2025, 12:00:00 AM CDT",
+        "verbose": "May 13, 2025 12:00:00 AM CDT"
+      },
+      "volume": {
+        "clearingVol": 1076485,
+        "floorVol": 1263441,
+        "globexVol": 23654939,
+        "oi": 128887240,
+        "totalVolume": 25994865
+      }
+    }
+  ],
+  "timeStamp": "2025-06-17T19:40:32.000Z"
+}
