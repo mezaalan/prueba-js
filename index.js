@@ -69,7 +69,6 @@ if (totalAPagar <= cuentaBancaria) {
 
 */
 
-
 const data = require("./proveedores.json"); 
 const prompt = require("prompt-sync")();
 const productosPlano = [];
@@ -100,14 +99,14 @@ function mostrarPorTipo(tipo) {
 
 function elegirProductoPorID(tipo) {
   mostrarPorTipo(tipo);
-  const idElegido = prompt("Ingrese el ID del producto que quiere comprar: ");
+  const idElegido = comprobar("Ingrese el ID del producto que quiere comprar: ");
   const producto = productosPlano.find(
-    (p) => p.tipo === tipo && p.id.toString() === idElegido
+    (p) => p.tipo === tipo && p.id === idElegido
   );
 
   if (producto) {
     console.log(`Stock disponible: ${producto.stock}`);
-    let cantidad = parseInt(prompt("Ingrese la cantidad que quiere comprar: "), 10);
+    let cantidad = comprobar("Ingrese la cantidad que quiere comprar: ");
 
     if (cantidad > 0 && cantidad <= producto.stock) {
       carrito.push({ ...producto, cantidad });
@@ -123,26 +122,26 @@ function elegirProductoPorID(tipo) {
 function queQuiereComprar() {
   let seguirComprando = "s";
 
-  while (seguirComprando.toLowerCase() === "s") {
+  while (seguirComprando === "s") {
     console.log("\n¿Qué desea comprar?");
     console.log("1 - Celulares");
     console.log("2 - Vidrios");
     console.log("3 - Fundas");
     console.log("4 - Volver al menú principal");
 
-    let tipoOpcionCompra = prompt("Ingrese 1, 2, 3 o 4: ");
+    let tipoOpcionCompra = comprobar("Ingrese 1, 2, 3 o 4: ");
 
     switch (tipoOpcionCompra) {
-      case "1":
+      case 1:
         elegirProductoPorID("celulares");
         break;
-      case "2":
+      case 2:
         elegirProductoPorID("vidrios");
         break;
-      case "3":
+      case 3:
         elegirProductoPorID("fundas");
         break;
-      case "4":
+      case 4:
         console.log("Volviendo al menú principal...");
         return;
       default:
@@ -150,7 +149,7 @@ function queQuiereComprar() {
         continue;
     }
 
-    seguirComprando = prompt("¿Desea seguir comprando? (s/n): ");
+    seguirComprando = comprobarSN("¿Desea seguir comprando?: ");
   }
 
     finalizarCompra();
@@ -162,20 +161,20 @@ function elegirFormaPago(total) {
   console.log("2 - Transferencia bancaria");
   console.log("3 - Efectivo al recibir");
 
-  let opcionPago = prompt("Ingrese 1, 2 o 3: ");
+  let opcionPago = comprobar("Ingrese 1, 2 o 3: ");
   switch (opcionPago) {
-    case "1":
+    case 1:
       let numeroTarjeta = prompt("Ingrese número de tarjeta: ");
       let nombre = prompt("Ingrese nombre del titular: ");
       let vencimiento = prompt("Ingrese fecha de vencimiento (MM/AA): ");
       let cvv = prompt("Ingrese CVV: ");
       console.log(` Pago aprobado con tarjeta ****${numeroTarjeta.slice(-4)} por $${total}`);
       break;
-    case "2":
+    case 2:
       let cbu = prompt("Ingrese su CBU/alias: ");
       console.log(` Transferencia realizada desde ${cbu} por $${total}`);
       break;
-    case "3":
+    case 3:
       console.log(` Pago en efectivo registrado. Debe abonar $${total} al recibir.`);
       break;
     default:
@@ -186,7 +185,7 @@ function elegirFormaPago(total) {
 }
 
 function preguntarSeguirComprando() {
-  let seguir = prompt("¿Desea seguir comprando? (s/n): ").toLowerCase();
+  let seguir = comprobarSN("¿Desea seguir comprando?:");
   if (seguir === "n") {
     finalizarCompra();
   }
@@ -210,8 +209,8 @@ function finalizarCompra() {
   const total = carrito.reduce((acc, p) => acc + p.precio * p.cantidad, 0);
   console.log(` Total a pagar: $${total}`);
 
-  let confirmar = prompt("¿Desea confirmar la compra? (s/n): ");
-  if (confirmar.toLowerCase() === "s") {
+  let confirmar = comprobarSN("¿Desea confirmar la compra?: ");
+  if (confirmar === "s") {
     if (elegirFormaPago(total)) {
       carrito.forEach(item => {
         let producto = productosPlano.find(p => p.id === item.id && p.tipo === item.tipo);
@@ -221,12 +220,22 @@ function finalizarCompra() {
       });
       console.log("Gracias por su compra");
       carrito = []; 
-      process.exit(0);
+      
     }
   } else {
     console.log(" Compra cancelada.");
   }
 }
+
+function comprobar(texto) {
+  const pasaje = parseInt(prompt(`Ingresa un número: ${texto}`), 10);
+  return pasaje;
+}
+
+function comprobarSN (texto) {
+  const pasaje = prompt(`${texto} (s/n):`).toLowerCase().trim();
+  return pasaje;
+} 
 
 let opcion;
 
@@ -237,24 +246,24 @@ do {
   console.log("2 - Comprar productos por categoría");
   console.log("3 - Finalizar");
 
-  opcion = prompt("Ingrese 1, 2 o 3: ");
+  opcion = comprobar("Ingrese 1, 2 o 3:");
 
   switch (opcion) {
-    case "1":
+    case 1:
       mostrarTabla();
       queQuiereComprar(); 
       break;
-    case "2":
+    case 2:
       subMenuCompra();
       break;
-    case "3":
+    case 3:
       console.log("Gracias por visitarnos. ¡Hasta luego!");
       break;
     default:
       console.log("Opción inválida. Ingrese solo 1, 2 o 3.");
       break;
   }
-} while (opcion !== "3");
+} while (opcion !== 3);
 
 function subMenuCompra() {
   let opcionCompra;
@@ -265,33 +274,34 @@ function subMenuCompra() {
     console.log("3 - Mostrar Fundas");
     console.log("4 - Volver al menú principal");
 
-    opcionCompra = prompt("Ingrese 1, 2, 3 o 4: ");
+    opcionCompra = comprobar("Ingrese 1, 2, 3 o 4: ");
 
     switch (opcionCompra) {
-      case "1":
+      case 1:
         elegirProductoPorID("celulares");
         preguntarSeguirComprando();
         break;
-      case "2":
+      case 2:
         elegirProductoPorID("vidrios");
         preguntarSeguirComprando();
         break;
-      case "3":
+      case 3:
         elegirProductoPorID("fundas");
         preguntarSeguirComprando();
         break;
-      case "4":
+      case 4:
         console.log("Volviendo al menú principal...");
         break;
       default:
         console.log("Opción inválida. Ingrese solo 1, 2, 3 o 4.");
         break;
     }
-  } while (opcionCompra !== "4");
+  } while (opcionCompra !== 4);
 }
 
-/*
-function comprobar(texto) {
-  return parseInt(prompt("Ingresa un número:", texto), 10);
-}
-*/
+
+
+
+
+
+
