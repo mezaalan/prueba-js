@@ -68,7 +68,7 @@ if (totalAPagar <= cuentaBancaria) {
 }
 
 */
-
+/*
 const data = require("./proveedores.json"); 
 const prompt = require("prompt-sync")();
 const productosPlano = [];
@@ -299,9 +299,15 @@ function subMenuCompra() {
   } while (opcionCompra !== 4);
 }
 
+*/
 
 
+// carrito de compras v2 
 
 
+const data = require("./proveedores.json"); 
+const prompt = require("prompt-sync")();
 
-
+data.proveedores.reduce((acc, item) => {
+  console.log(item);
+}, 0)
