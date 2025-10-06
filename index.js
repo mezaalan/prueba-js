@@ -311,3 +311,27 @@ const prompt = require("prompt-sync")();
 data.proveedores.reduce((acc, item) => {
   console.log(item);
 }, 0)
+
+
+Método	Qué hace	Ejemplo
+.forEach()	Recorre sin devolver nada	imprimir cada elemento
+.map()	Crea un nuevo array transformado	cambiar estructura de datos
+.filter()	Devuelve solo los que cumplen condición	filtrar productos con stock
+.reduce()	Acumula valores o combina arrays	aplanar o sumar
+.concat()	Une dos arrays	combinar listas
+.flat() o .flatMap()	Aplana arrays anidados	simplificar arrays dentro de arrays
+
+ Funciones flecha (arrow functions)
+
+Ejemplo:
+
+(proveedor) => proveedor.nombre
+
+
+📘 Buscá: “Funciones flecha en JavaScript”
+
+Desestructuración y objetos anidados
+
+Para acceder fácilmente a cosas como:
+
+proveedor.productos[tipo][i].nombre
