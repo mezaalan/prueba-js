@@ -304,7 +304,7 @@ function subMenuCompra() {
 
 // carrito de compras v2 
 
-
+/*
 const data = require("./proveedores.json"); 
 const prompt = require("prompt-sync")();
 
@@ -335,3 +335,33 @@ Desestructuración y objetos anidados
 Para acceder fácilmente a cosas como:
 
 proveedor.productos[tipo][i].nombre
+*/
+/*
+const data = require("./proveedores.json"); 
+const prompt = require("prompt-sync")(); 
+
+const productosPlano = data.proveedores.reduce((acc, proveedor) => {
+  const productosDelProveedor = Object.keys(proveedor.productos).reduce((subAcc, tipo) => {
+    const productosDeTipo = proveedor.productos[tipo].map((producto) => ({
+      tipo: tipo,
+      id: producto.id,
+      nombre: producto.nombre,
+      precio: producto.precio,
+      stock: producto.stock,
+    }));
+    return subAcc.concat(productosDeTipo);
+  }, []);
+  return acc.concat(productosDelProveedor);
+}, []);
+
+console.table(productosPlano);
+
+*/
+
+
+const data = require("./proveedores.json"); 
+const prompt = require("prompt-sync")();
+
+const productosPlano = data.proveedores.reduce((acc, proveedor) => acc.concat(cur), []);
+
+console.log(productosPlano);
